@@ -6,6 +6,7 @@ hash = {}
 
 def key_for_min_value(name_hash)
   if name_hash == {}
+    break
   end
 
   min = name_hash.first[1]
